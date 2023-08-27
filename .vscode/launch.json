@@ -1,0 +1,30 @@
+{
+  "name": "Debug (gcc)",
+  "type": "cppdbg",
+  "request": "launch",
+  "program": "/output/backupQuaseLa.exe",
+  "args": [],
+  "stopAtEntry": false,
+  "cwd": "${workspaceFolder}",
+  "environment": [],
+  "externalConsole": false,
+  "MIMode": "gdb",
+  "setupCommands": [
+      {
+          "description": "Habilitar impressão pretty-printing",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+      }
+  ],
+  "preLaunchTask": "",
+  "miDebuggerPath": "/usr/bin/gdb",
+  "linux": {
+      "MIMode": "gdb"
+  },
+  "windows": {
+      "MIMode": "gdb"
+  },
+  "osx": {
+      "MIMode": "lldb"
+  }
+}
