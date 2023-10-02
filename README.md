@@ -44,5 +44,3 @@ O programa apresenta um menu de opções para o usuário, permitindo-lhe escolhe
 ## Observações
 
 - O projeto também contém métricas de desempenho, registradas em um arquivo `metrics.txt`.
-
-Espero que este texto de apresentação seja útil para documentar seu projeto no Git. Se você planeja usar este código em produção ou em seu trabalho acadêmico, ele foi projetado para ser preciso e funcional, de acordo com suas especificações.
